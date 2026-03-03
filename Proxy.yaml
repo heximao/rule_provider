@@ -1,7 +1,6 @@
 payload:
-  #可以直连但是访问体验不好，改走代理的域名
-
-  # 直连网速慢
+  #可直连但体验不好
+  - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,macked.app
 
   # 直连时，路由器apt list update报错
