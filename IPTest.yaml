@@ -6,7 +6,6 @@ payload:
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,browserleaks.com
   
-
   - DOMAIN-SUFFIX,dnsleaktest.com
   - DOMAIN-SUFFIX,db-ip.com
   - DOMAIN-SUFFIX,freegeoip.app
@@ -45,7 +44,4 @@ payload:
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,speedtest.com
   - DOMAIN-SUFFIX,speedtest.org
-  - DOMAIN-SUFFIX,speedtest.co
-  - DOMAIN-SUFFIX,speedtestapp.com
-  - DOMAIN-SUFFIX,speedtestcustom.com
 
