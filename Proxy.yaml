@@ -1,11 +1,8 @@
 payload:
-  - DOMAIN-SUFFIX,immersivetranslate.com
-  - DOMAIN-SUFFIX,immersivetranslate.cn
+  #可以直连但是访问体验不好，改走代理的域名
   - DOMAIN-SUFFIX,macked.app
   - DOMAIN-SUFFIX,openwrt.ai
   - DOMAIN-SUFFIX,ubuntu.com
-  - DOMAIN-SUFFIX,immersivetranslate.com
   # Nodejs
   - DOMAIN-SUFFIX,npmjs.org
-  - DOMAIN-SUFFIX,nodesource.com  
-  
+  - DOMAIN-SUFFIX,nodesource.com
