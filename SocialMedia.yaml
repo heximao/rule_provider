@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redditstatic.com
+  - DOMAIN-SUFFIX,redditspace.com
 
   # pornhub
   - DOMAIN-SUFFIX,pornhub.com
