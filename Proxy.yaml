@@ -1,5 +1,6 @@
 payload:
-  #可直连但体验不好
+  # 能直连但体验不好
+  # docker
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,macked.app
 
@@ -12,5 +13,8 @@ payload:
   - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,nodesource.com
 
-  # gfw
-  - DOMAIN-SUFFIX,nodesource.com
+  # royal TSX
+  - DOMAIN-SUFFIX,royalapps.com
+  - DOMAIN-SUFFIX,royalapps.onfastspring.com
+
+  # 不能直连 gfw
