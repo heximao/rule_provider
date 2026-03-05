@@ -5,13 +5,17 @@ payload:
   - DOMAIN-SUFFIX,firstrade.com
   - DOMAIN-SUFFIX,firstrade.net
   - DOMAIN-SUFFIX,tradingview.com
+  
   - DOMAIN-SUFFIX,interactivebrokers.com.hk
   - DOMAIN-SUFFIX,interactivebrokers.com.cn
   - DOMAIN-SUFFIX,interactivebrokers.com
+  
   - DOMAIN-SUFFIX,schwab.com
   - DOMAIN-SUFFIX,schwabmail.com
   - DOMAIN-SUFFIX,schwabadvisorcenter.com
+  
   - DOMAIN-SUFFIX,fastbull.com
+  
   # 银行
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,bochk.com
@@ -30,8 +34,11 @@ payload:
   - DOMAIN-SUFFIX,zabank.hk
   - DOMAIN-SUFFIX,zabank.com
   - DOMAIN-SUFFIX,livibank.com
+  
   - DOMAIN-SUFFIX,welab.bank
   - DOMAIN-SUFFIX,welab.com
+  - DOMAIN-SUFFIX,wapi-sit.dev-wlab.com
+  
   - DOMAIN-SUFFIX,antbank.hk
   - DOMAIN-SUFFIX,alipayhk.com
   - DOMAIN-SUFFIX,fusionbank.com
