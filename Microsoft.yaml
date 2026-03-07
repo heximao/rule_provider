@@ -1,12 +1,15 @@
 payload:
   # === Microsoft 主域 ===
+  - DOMAIN-SUFFIX,microsoft
   - DOMAIN-SUFFIX,microsoft.com
   - DOMAIN-SUFFIX,microsoft.net
   - DOMAIN-SUFFIX,microsoft365.com
   - DOMAIN-SUFFIX,aka.ms
 
   # === Office / Outlook / OneDrive ===
+  - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office.net
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,outlook.com
   - DOMAIN-SUFFIX,outlook.cn
@@ -16,7 +19,8 @@ payload:
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,sharepointonline.com
-
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,amcdn.msftauth.net
   # === Bing / Edge / MSN / Copilot ===
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bing.net
