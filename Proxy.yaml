@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,ubuntu.com
   
   ## Nodejs
+  - DOMAIN-SUFFIX,npmjs.com 
   - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,nodesource.com
 
