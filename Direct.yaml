@@ -142,7 +142,7 @@ payload:
   - DOMAIN-SUFFIX,redhat.com
   - DOMAIN-SUFFIX,xz.pphimalayanrt.com
 
-  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,infuse.im
   # not CN Domain（未被墙的海外域名走直连）
   # 字节跳动 Trae CN
   - DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
