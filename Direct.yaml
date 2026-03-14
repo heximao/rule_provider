@@ -33,7 +33,9 @@ payload:
   
   # Github 镜像站
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
-  
+
+  # 没有被墙的海外站点、直连稳定
+  # 如果直连不稳定，放到 Proxy组
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,focusee.imobie.com
   - DOMAIN-SUFFIX,focusee.imobie-resource.com
