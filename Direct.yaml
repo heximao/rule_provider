@@ -8,25 +8,25 @@ payload:
   - IP-CIDR,192.168.0.0/16
   - IP-CIDR,100.64.0.0/10
   - IP-CIDR,127.0.0.0/8
-# link-local
   - IP-CIDR,169.254.0.0/16
   - IP-CIDR,172.16.0.0/12
   - IP-CIDR,192.88.99.0/24
   - IP-CIDR,198.18.0.0/15
-  # 多播 / 保留地址段
   - IP-CIDR,224.0.0.0/3
-  # 防崩溃
   - IP-CIDR,0.0.0.0/8
-  - IP-CIDR6,::1/128        # Loopback
-  - IP-CIDR6,fc00::/7       # Unique Local Address (涵盖了 fd00::/8)
-  - IP-CIDR6,fe80::/10      # Link-Local
-  - IP-CIDR6,ff00::/8       # Multicast
-  - IP-CIDR6,2001::/32      # Teredo/Fixed (涵盖了 2001:db8 和 2001:20)
-  - IP-CIDR6,2002::/16      # 6to4 Relay
+  - IP-CIDR6,::1/128
+  - IP-CIDR6,fc00::/7
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,ff00::/8
+  - IP-CIDR6,2001::/32
+  - IP-CIDR6,2002::/16
 
-  # CN Domain(面板开启区域绕过大陆之后的漏网之鱼)
+  # 开启“绕过大陆”功能后，国内域名不经过clash，遗漏的漏网之鱼放在这里，直连
+
+  # 没有被墙的海外站点、直连稳定放在这里，直连
+  # 如果直连不稳定，改放到 Proxy 组
   - DOMAIN-SUFFIX,dns.cloudflare.com
-
+  - DOMAIN-SUFFIX,themoviedb.org
   # 沉浸式翻译
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,immersivetranslate.com
@@ -34,8 +34,25 @@ payload:
   # Github 镜像站
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
 
-  # 没有被墙的海外站点、直连稳定
-  # 如果直连不稳定，放到 Proxy组
+  # 可以稳定连接的海外服务
+  - DOMAIN-SUFFIX,redhat.com
+  - DOMAIN-SUFFIX,xz.pphimalayanrt.com
+  - DOMAIN-SUFFIX,infuse.im
+  # 字节跳动 Trae CN
+  - DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
+
+  - DOMAIN-SUFFIX,unpkg.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,obsidian.md
+
+  - DOMAIN-SUFFIX,iina.io
+  - DOMAIN-SUFFIX,oplist.org
+  - DOMAIN-SUFFIX,adguard.org
+
+  # 腾讯云
+  - IP-CIDR,43.160.156.23/32
+  - IP-CIDR,43.160.156.172/32
+  
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,focusee.imobie.com
   - DOMAIN-SUFFIX,focusee.imobie-resource.com
@@ -165,30 +182,9 @@ payload:
 
   - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,injections.adguard.org
-  - DOMAIN-SUFFIX,local.adguard.org
+
   - DOMAIN-SUFFIX,msg.umengcloud.com
   - DOMAIN-SUFFIX,origin-a.akamaihd.net
-  - DOMAIN-SUFFIX,oplist.org
-
-  # 可以稳定连接的海外服务
-  - DOMAIN-SUFFIX,redhat.com
-  - DOMAIN-SUFFIX,xz.pphimalayanrt.com
-
-  - DOMAIN-SUFFIX,infuse.im
-  # not CN Domain（未被墙的海外域名走直连）
-  # 字节跳动 Trae CN
-  - DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
-
-  - DOMAIN-SUFFIX,unpkg.com
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,obsidian.md
-
-  - DOMAIN-SUFFIX,iina.io
-  # CN IP(面板开启区域绕过大陆之后的漏网之鱼)
-
-  # 腾讯云
-  - IP-CIDR,43.160.156.23/32
-  - IP-CIDR,43.160.156.172/32
 
   - IP_CIDR,1.1.1.1/32
   - IP-CIDR,1.12.12.12/32
