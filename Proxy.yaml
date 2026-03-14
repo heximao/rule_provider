@@ -6,6 +6,9 @@ payload:
   - DOMAIN-SUFFIX,docker.net
 
   - DOMAIN-SUFFIX,dns.cloudflare.com
+
+  # Chrome 标签页插件 bonjourr
+  - DOMAIN-SUFFIX,bonjourr.fr
   
   ## Mac App 破解资源下载
   - DOMAIN-SUFFIX,appstorrent.ru
@@ -29,7 +32,7 @@ payload:
   - DOMAIN-SUFFIX,royalapps.com
   - DOMAIN-SUFFIX,royalapps.onfastspring.com
 
-  # 不能直连 gfw
+  # 不能直连，也就是被墙的
    ## discord
   - DOMAIN-SUFFIX,discord.com
   - DOMAIN-SUFFIX,discordapp.com,
