@@ -5,6 +5,8 @@ payload:
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,docker.net
 
+  - DOMAIN-SUFFIX,dns.cloudflare.com
+  
   ## Mac App 破解资源下载
   - DOMAIN-SUFFIX,appstorrent.ru
   - DOMAIN-SUFFIX,macked.app
