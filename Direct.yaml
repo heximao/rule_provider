@@ -161,10 +161,9 @@ payload:
   - DOMAIN-SUFFIX,zoho.com
   - DOMAIN-SUFFIX,app.adjust.com
 
-  - DOMAIN-SUFFIX,errlog.umeng.com
+  - DOMAIN-SUFFIX,umeng.com
   - DOMAIN-SUFFIX,injections.adguard.org
   - DOMAIN-SUFFIX,local.adguard.org
-  - DOMAIN-SUFFIX,msg.umeng.com
   - DOMAIN-SUFFIX,msg.umengcloud.com
   - DOMAIN-SUFFIX,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,oplist.org
@@ -178,12 +177,10 @@ payload:
   # 字节跳动 Trae CN
   - DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
 
-  - DOMAIN-SUFFIX,cdn.jsdelivr.net
   - DOMAIN-SUFFIX,unpkg.com
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,obsidian.md
 
-  - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,iina.io
   # CN IP(面板开启区域绕过大陆之后的漏网之鱼)
 
