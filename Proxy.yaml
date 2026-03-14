@@ -84,3 +84,10 @@ payload:
   - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,speedtest.com
   - DOMAIN-SUFFIX,speedtest.org
+  # Cloud Server
+  - DOMAIN-SUFFIX,oracle.com
+  
+  # Cloud Hosting
+  # 免费版
+  - DOMAIN-SUFFIX,wasmer.io
+  - DOMAIN-SUFFIX,galaxycloud.app
