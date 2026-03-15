@@ -6,19 +6,11 @@ payload:
 
 
   # > Claude
-  - DOMAIN-SUFFIX,anthropic.com
-  - DOMAIN-SUFFIX,claude.ai
+
 
   # > Copilot
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
-  # > Gemini
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-
-  # > Meta AI
-  - DOMAIN-SUFFIX,meta.ai
 
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
