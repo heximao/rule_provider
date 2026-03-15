@@ -7,3 +7,6 @@ payload:
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,ai.com
+  
+  # Nvidia
+  - DOMAIN-SUFFIX,nvidia.com
