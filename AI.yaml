@@ -1,3 +1,5 @@
 payload:
   # OpenCode Zen
   - DOMAIN-SUFFIX,opencode.ai
+  # AI 模型的开放源数据库
+  - DOMAIN-SUFFIX,models.dev
