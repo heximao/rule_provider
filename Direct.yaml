@@ -1,5 +1,5 @@
 payload:
-# lan 默认直连，正常情况下lanIP不会被匹配，此处只是未了避免遗漏
+  # lan 默认直连，正常情况下lanIP不会被匹配，此处只是未了避免遗漏
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localhost
@@ -23,11 +23,14 @@ payload:
 
   # 开启“绕过大陆”功能后，国内域名不经过clash，遗漏的漏网之鱼放在这里，直连
 
-  # 没有被墙的海外站点、直连稳定放在这里，直连
-  # 如果直连不稳定，改放到 Proxy 组
+  # 没有被墙的海外站点并且稳定直连放在这里，如果不稳定，改放到 Proxy 组
+  
   ##一元机场订阅更新地址
   - DOMAIN-SUFFIX,sub3.smallstrawberry.com
+
+  ##TMDB
   - DOMAIN-SUFFIX,themoviedb.org
+  
   # 沉浸式翻译
   - DOMAIN-SUFFIX,immersivetranslate.cn
   - DOMAIN-SUFFIX,immersivetranslate.com
@@ -35,7 +38,6 @@ payload:
   # Github 镜像站
   - DOMAIN-SUFFIX,cdn.jsdelivr.net
 
-  # 可以稳定连接的海外服务
   - DOMAIN-SUFFIX,redhat.com
   - DOMAIN-SUFFIX,xz.pphimalayanrt.com
   - DOMAIN-SUFFIX,infuse.im
@@ -50,7 +52,7 @@ payload:
   - DOMAIN-SUFFIX,oplist.org
   - DOMAIN-SUFFIX,adguard.org
 
-  # 腾讯云
+  # 腾讯云-香港
   - IP-CIDR,43.160.156.23/32
   - IP-CIDR,43.160.156.172/32
   
