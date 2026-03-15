@@ -11,7 +11,8 @@ payload:
   - IP-CIDR,64.233.187.188/32
   - IP-CIDR,64.233.160.0/19
   - IP-CIDR,108.177.125.188/32
-
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  - IP-CIDR,74.125.0.0/16,no-resolve
   # Gemini CLI
   - DOMAIN-SUFFIX,geminicli.com
   - DOMAIN-SUFFIX,ggpht.com
