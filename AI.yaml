@@ -4,17 +4,5 @@ payload:
   # AI 模型的开放源数据库
   - DOMAIN-SUFFIX,models.dev
 
-
-  # > Claude
-
-
-  # > Copilot
-  - DOMAIN-SUFFIX,copilot.microsoft.com
-
-
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
-
-  # > Siri
-  - DOMAIN-SUFFIX,apple-relay.apple.com
-  - DOMAIN,guzzoni.smoot.apple.com
