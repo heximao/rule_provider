@@ -39,7 +39,7 @@ payload:
   - DOMAIN-SUFFIX,discordapp.com,
   - DOMAIN-SUFFIX,discordapp.net
   - DOMAIN-SUFFIX,discord.gg
-
+  - DOMAIN-SUFFIX,grep.app
     # 综合测试
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ippure.com
@@ -51,7 +51,6 @@ payload:
   - DOMAIN-SUFFIX,db-ip.com
   - DOMAIN-SUFFIX,freegeoip.app
   - DOMAIN-SUFFIX,freegeoip.net
-  - DOMAIN-SUFFIX,freegeoip.app
   - DOMAIN-SUFFIX,geoplugin.com
   
     # 测质量
