@@ -57,7 +57,7 @@ payload:
   - DOMAIN-SUFFIX,geocode.xyz
   - DOMAIN-SUFFIX,geoipify.whoisxmlapi.com
   - DOMAIN-SUFFIX,geoiplookup.io
-
+  - DOMAIN-SUFFIXipify.org
   - DOMAIN-SUFFIX,iplocation.com
   - DOMAIN-SUFFIX,ipinfo.io
 
