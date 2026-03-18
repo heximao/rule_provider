@@ -47,3 +47,14 @@ payload:
   - DOMAIN-SUFFIX,airstarbank.com.hk
   # 财经资讯
   - DOMAIN-SUFFIX,seekingalpha.com
+
+  - DOMAIN-SUFFIX,bit.com
+  - DOMAIN-SUFFIX,bitexch.io
+  - DOMAIN-SUFFIX,polymarket.com
+  - DOMAIN-SUFFIX,binance.com
+  - DOMAIN-SUFFIX,okx.com
+  - DOMAIN-SUFFIX,bybit.com
+  - DOMAIN-SUFFIX,bitget.com
+  - DOMAIN-SUFFIX,huobi.com
+  - DOMAIN-SUFFIX,coinbase.com
+  - DOMAIN-SUFFIX,tether.to
