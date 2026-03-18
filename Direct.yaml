@@ -159,7 +159,6 @@ payload:
   - DOMAIN-SUFFIX,msg.umengcloud.com
   - DOMAIN-SUFFIX,origin-a.akamaihd.net
 
-  - IP_CIDR,1.1.1.1/32
   - IP-CIDR,1.12.12.12/32
   - IP-CIDR,8.128.0.0/10
   - IP-CIDR,8.208.0.0/12
@@ -181,10 +180,11 @@ payload:
   - IP-CIDR,41.223.119.0/24
   - IP-CIDR,42.186.0.0/16
 
+  - IP-CIDR,223.5.5.5/32,,no-resolve
   # Aliyun HK
-  - IP-CIDR,43.175.230.135/32
-  - IP-CIDR,43.175.230.4/32
-  - IP-CIDR,43.175.230.20/32
+  - IP-CIDR,43.175.230.135/32,no-resolve
+  - IP-CIDR,43.175.230.4/32,no-resolve
+  - IP-CIDR,43.175.230.20/32,no-resolve
   
   - IP-CIDR,45.112.212.0/22
   - IP-CIDR,45.113.192.0/22
