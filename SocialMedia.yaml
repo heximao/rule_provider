@@ -46,5 +46,12 @@ payload:
   - DOMAIN-SUFFIX,t8cdn.com
   - DOMAIN-SUFFIX,thumbzilla.com
   
-  #xvideo
+    # xvideo
   - DOMAIN-SUFFIX,xvideo.com
+
+    # discord
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discordapp.com,
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,grep.app
