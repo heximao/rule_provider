@@ -15,9 +15,11 @@ payload:
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
   - DOMAIN-SUFFIX,docker.net
+  
     # Firefox
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,mozilla.com
+  - DOMAIN-SUFFIX,mozilla.org
   
     # Chrome 标签页插件 bonjourr
   - DOMAIN-SUFFIX,bonjourr.fr
@@ -45,12 +47,6 @@ payload:
   - DOMAIN-SUFFIX,royalapps.onfastspring.com
   - DOMAIN-SUFFIX,wiki.metacubex.one
   # 不能直连，也就是被墙的
-    ## discord
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discordapp.com,
-  - DOMAIN-SUFFIX,discordapp.net
-  - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,grep.app
     # 综合测试
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,ippure.com
