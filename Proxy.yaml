@@ -20,7 +20,7 @@ payload:
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.org
-  
+  - DOMAIN-SUFFIX,vercel.com
     # Chrome 标签页插件 bonjourr
   - DOMAIN-SUFFIX,bonjourr.fr
     # 一元机场帐户后台
