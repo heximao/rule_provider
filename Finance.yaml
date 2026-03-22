@@ -32,10 +32,10 @@ payload:
   - DOMAIN-SUFFIX,publicbank.com.hk
   - DOMAIN-SUFFIX,shacombank.com.hk
   
-    # ZA Bank
-  - DOMAIN-SUFFIX,zabank.hk
-  - DOMAIN-SUFFIX,zabank.com
-  - DOMAIN-SUFFIX,appsflyersdk.com
+    # ZA Group
+  - DOMAIN-SUFFIX,za.group
+  - DOMAIN-SUFFIX,bank.za.group
+  - DOMAIN-SUFFIX,broker.za.group
   
   - DOMAIN-SUFFIX,livibank.com
   
