@@ -7,8 +7,10 @@ payload:
   - DOMAIN-SUFFIX,aka.ms
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN-SUFFIX,msauth.net
   
-  # === Office / Outlook / OneDrive ===
+  # === Microsoft 365 ===
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office.net
@@ -77,7 +79,6 @@ payload:
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,openaicom.imgix.net
-  - DOMAIN-KEYWORD,openaicom-api
   
   # === 第三方依赖服务 ===
   - DOMAIN-SUFFIX,auth0.com
