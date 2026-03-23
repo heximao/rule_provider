@@ -24,7 +24,6 @@ payload:
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,api.telegram.org
   - DOMAIN-SUFFIX,telesco.pe
-  
     # LINE
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line.me
