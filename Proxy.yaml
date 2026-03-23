@@ -105,6 +105,8 @@ payload:
   - DOMAIN-SUFFIX,wasmer.io
   - DOMAIN-SUFFIX,galaxycloud.app
   - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,vercel-storage.com
   
     # > Riot Games
   - DOMAIN-SUFFIX,riotcdn.net
@@ -117,7 +119,7 @@ payload:
   - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,smartmailcloud.com
 
-  # > 机场(订阅)
+    # > 机场(订阅)
     # 一元机场
   - DOMAIN-SUFFIX,xn--1-q07a56pdss.org
   - DOMAIN-SUFFIX,xn--4gq62f.com
@@ -219,14 +221,8 @@ payload:
   - DOMAIN-SUFFIX,certificate-transparency.org
   - DOMAIN-SUFFIX,chinadigitaltimes.net
   - DOMAIN-SUFFIX,chinatimes.com
-  - DOMAIN-SUFFIX,chrome.com
-  - DOMAIN-SUFFIX,chromecast.com
-  - DOMAIN-SUFFIX,chromercise.com
-  - DOMAIN-SUFFIX,chromestatus.com
-  - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,cl.ly
   - DOMAIN-SUFFIX,clien.net
-  - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cloudgarage.jp
   - DOMAIN-SUFFIX,cloudmagic.com
