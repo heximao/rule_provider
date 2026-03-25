@@ -1,11 +1,15 @@
 payload:
   # ==    能直连但体验不好    == #
+    ###### CF
   - DOMAIN-SUFFIX,cloudflare.com
   - IP-CIDR,1.1.1.1/32,no-resolve
   - IP-CIDR,1.0.0.1/32,no-resolve
+  
     # 宾夕法尼亚州立大学 
   - DOMAIN-SUFFIX,psu.edu
 
+    ###### Adgruad
+  - DOMAIN-SUFFIX,adtidy.org
     # docker
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
@@ -15,17 +19,17 @@ payload:
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,mozilla.com
   - DOMAIN-SUFFIX,mozilla.org
-  - DOMAIN-SUFFIX,vercel.com
+  - DOMAIN-SUFFIX,mozilla.net
+
     # Chrome 标签页插件 bonjourr
   - DOMAIN-SUFFIX,bonjourr.fr
-    # 一元机场帐户后台
-  - DOMAIN-SUFFIX,xn--4gq62f52gdss.ink
+
   - DOMAIN-SUFFIX,icon.horse
   - DOMAIN-SUFFIX,trakt.tv
     # Mac App 破解资源下载
   - DOMAIN-SUFFIX,appstorrent.ru
   - DOMAIN-SUFFIX,macked.app
-    # 密码管理器
+    ###### 密码管理器
   - DOMAIN-SUFFIX,bitwarden.com
   - DOMAIN-SUFFIX,bitwarden.net
     ## Kwrt
@@ -107,7 +111,7 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,vercel.com
   - DOMAIN-SUFFIX,vercel-storage.com
-  
+
     # > Riot Games
   - DOMAIN-SUFFIX,riotcdn.net
   - DOMAIN-SUFFIX,wr.pvp.net
@@ -122,9 +126,11 @@ payload:
     # > 机场(订阅)
     # 一元机场
   - DOMAIN-SUFFIX,xn--1-q07a56pdss.org
+  - DOMAIN-SUFFIX,xn--4gq62f52gdss.ink
   - DOMAIN-SUFFIX,xn--4gq62f.com
   - DOMAIN-SUFFIX,xn--4gq62f.org
   - DOMAIN-SUFFIX,yiyuanjichang.com
+
     # > Top blocked sites
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
