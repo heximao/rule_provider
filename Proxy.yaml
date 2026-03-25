@@ -130,6 +130,7 @@ payload:
   - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,smartmailcloud.com
   - DOMAIN-SUFFIX,knock.app
+  
     # > 机场(订阅)
     # 一元机场
   - DOMAIN-SUFFIX,xn--1-q07a56pdss.org
@@ -137,7 +138,10 @@ payload:
   - DOMAIN-SUFFIX,xn--4gq62f.com
   - DOMAIN-SUFFIX,xn--4gq62f.org
   - DOMAIN-SUFFIX,yiyuanjichang.com
-
+    # 自建
+  - DOMAIN-SUFFIX,rapid-disk-29c72222.he-ximao.workers.dev
+  - DOMAIN-SUFFIX,laower.wasmer.app
+  
     # > Top blocked sites
   - DOMAIN-SUFFIX,2o7.net
   - DOMAIN-SUFFIX,4everProxy.com
