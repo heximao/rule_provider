@@ -26,15 +26,14 @@ payload:
   - DOMAIN-SUFFIX,heads-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
   - DOMAIN-SUFFIX,cdn-spotify-experiments.conductrics.com
-  - IP-CIDR,104.154.127.126/32,no-rules
-  - IP-CIDR,35.186.224.47/32
+  - IP-CIDR,104.154.127.126/32,,no-resolve
+  - IP-CIDR,35.186.224.47/32,no-resolve
   - PROCESS-NAME,Spotify
   - PROCESS-NAME,Spotify.exe
   
   # 华视影院
   - DOMAIN-SUFFIX,huavod.com
   - DOMAIN-SUFFIX,okhuaren.com
-  # 华人直播
   - DOMAIN-SUFFIX,huaren.live
   - DOMAIN-SUFFIX,huarenlivewebsite.top
   # netflix
