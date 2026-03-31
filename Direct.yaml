@@ -23,7 +23,7 @@ payload:
   - DOMAIN-SUFFIX,oplist.org
   - DOMAIN-SUFFIX,adguard.org
 
-  - DOMAIN-SUFFIX,linux.org
+  - DOMAIN-SUFFIX,linuxdo.org
   
     # 腾讯云-香港
   - IP-CIDR,43.160.156.23/32,no-resolve
