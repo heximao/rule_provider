@@ -1,8 +1,0 @@
-payload:
-  # Cloud Server
-  - DOMAIN-SUFFIX,oracle.com
-  
-  # Cloud Hosting
-  # 免费版
-  - DOMAIN-SUFFIX,wasmer.io
-  - DOMAIN-SUFFIX,galaxycloud.app
