@@ -33,8 +33,9 @@ payload:
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,ai.com
   
-  # Nvidia
-  - DOMAIN-SUFFIX,nvidia.com
-  
+  # OpenClaw
+  - DOMAIN-SUFFIX,openclaw.ai
+  - DOMAIN-SUFFIX,clawhub.ai
+
   # MiniMax 国际版
   - DOMAIN-SUFFIX,minimax.io
