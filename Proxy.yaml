@@ -1,5 +1,6 @@
 payload:
     # CF
+  - DOMAIN-SUFFIX,cloudflaremirrors.com
   - DOMAIN-SUFFIX,cloudflare.com
   - IP-CIDR,1.1.1.1/32,no-resolve
   - IP-CIDR,1.0.0.1/32,no-resolve
@@ -39,6 +40,7 @@ payload:
   - IP-CIDR,185.125.190.57,no-resolve
   
     ## Nodejs
+  - DOMAIN-SUFFIX,nodejs.org
   - DOMAIN-SUFFIX,npmjs.com 
   - DOMAIN-SUFFIX,npmjs.org
   - DOMAIN-SUFFIX,nodesource.com
