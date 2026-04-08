@@ -22,7 +22,9 @@ payload:
   - DOMAIN-SUFFIX,iina.io
   - DOMAIN-SUFFIX,oplist.org
   - DOMAIN-SUFFIX,adguard.org
-
+  
+  - DOMAIN-SUFFIX,xuedingtoken.com
+  
   - DOMAIN-SUFFIX,linuxdo.org
   - DOMAIN-SUFFIX,linux.do
     # 腾讯云-香港
