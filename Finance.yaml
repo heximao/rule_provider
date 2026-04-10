@@ -1,7 +1,10 @@
 payload:
   # 券商
   - DOMAIN-SUFFIX,tradingview.com
+  
   - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridgewhale.com
+  
   - DOMAIN-SUFFIX,firstrade.com
   - DOMAIN-SUFFIX,firstrade.net
   - DOMAIN-SUFFIX,tradingview.com
