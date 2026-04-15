@@ -22,7 +22,7 @@ payload:
   - DOMAIN-SUFFIX,iina.io
   - DOMAIN-SUFFIX,oplist.org
   - DOMAIN-SUFFIX,adguard.org
-  
+  - DOMAIN-SUFFIX,langbot.app
   - DOMAIN-SUFFIX,xuedingtoken.com
   
   - DOMAIN-SUFFIX,linuxdo.org
